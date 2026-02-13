@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font-family: "Delius";
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-image: url("./heart-falling.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container > h1 {
+    font-family: var(--main-font-family);
+    font-size: 3rem;
+    color: #e6ebf2;
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.valentine-gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+}
+
+.valentine-gif-container img {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
